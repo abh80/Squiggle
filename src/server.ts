@@ -1,10 +1,13 @@
 import fastify from "fastify";
 import RPC from "./RPC";
 import { ActivitiesPostBody } from "./Interface";
-
+import fastifyCors from "fastify-cors";
 const client: RPC = new RPC();
 const PORT = 7879;
 const server = fastify({ logger: true });
+server.register(fastifyCors, {
+  origin: "*",
+});
 
 server.get("/", (req, rep) => {
   rep.send("Squiggle is running!");
