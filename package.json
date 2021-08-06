@@ -12,10 +12,7 @@
     "lint": "eslint --ext .ts ."
   },
   "keywords": [],
-  "author": {
-    "name": "abh80",
-    "email": "techixspotify@gmail.com"
-  },
+  "author": "abh80",
   "license": "MIT",
   "config": {
     "forge": {
@@ -64,5 +61,6 @@
     "electron-squirrel-startup": "^1.0.0",
     "fastify": "^3.20.1",
     "fastify-cors": "^6.0.2"
-  }
+  },
+  "repository": "https://github.com/abh80/Squiggle.git"
 }
