@@ -1,0 +1,13 @@
+html,
+body {
+  height: 400px;
+  width: 300px;
+  background-color: #2f3136;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin: 4px;
+}
+.header-main {
+  font-size: 1.5em;
+  font-weight: bold;
+}

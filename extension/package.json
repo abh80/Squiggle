@@ -1,0 +1,17 @@
+{
+  "name": "extension",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --watch --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.154",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2",
+    "copy-webpack-plugin": "^9.0.1"
+  },
+  "dependencies": {}
+}

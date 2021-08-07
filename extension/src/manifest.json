@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Squiggle",
+    "description": "An extension to show your browser status on discord.",
+    "version": "1.1.0",
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_popup": "html/popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "js/content_script.js"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "permissions": [
+        "tabs"
+    ]
+}
