@@ -16,3 +16,4 @@ export const postRpc = async (
     return new Error((e as AxiosError).response?.data);
   }
 };
+

@@ -8,3 +8,4 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   );
 });
+setInterval(() => 0, 1000);
